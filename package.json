@@ -6,7 +6,8 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "export": "npm run build && rm -rf docs && mv out docs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
